@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Location from "./components/Location";
 import GetStarted from "./components/GetStarted";
 import Testimonials from "./components/Testimonials";
+import Services from "./components/Services";
 
 useState
 
@@ -16,6 +17,7 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <About/>
+    <Services/>
     <Work/>
     <Location/>
     <GetStarted/>
