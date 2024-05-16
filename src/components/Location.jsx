@@ -1,7 +1,5 @@
-// import React from 'react'
 import React,{useState} from 'react'
 import { destn } from '../data/destination';
-import "../App.css"
 const Location = () => {
 
   const [locs, setLocs] = useState(destn);
@@ -17,7 +15,7 @@ const Location = () => {
          <div className="grid grid-cols-1 sm:grid-cols-2 ">
            <h1 className="text-black sm:text-white h-[150px] w-[280px] p-4 md:w-[25vw] 2xl:w-[19vw] text-2xl md:text-4xl font-barlow font-black">
             MOST POPULAR LOCATION WE WORK ON</h1>
-           <p className=" des text-[#454242] text-[20px] md:text-[25px] 2xl:text-[28px] font-normal  lg:mr-[100px] lg:ml-[50px] 2xl:ml-[-15vw] md:w-[35vw] font-['Josefin Sans', sans-serif]">
+           <p className=" des text-[#454242] text-[20px] md:text-[25px] 2xl:text-[28px] font-normal  lg:mr-[100px] lg:ml-[50px] 2xl:ml-[-15vw] md:w-[35vw] font-sans_serif">
            With our network of creators, you can choose any location for your
               videos, from major cities to the most remote areas on the planet
            </p>
@@ -40,32 +38,32 @@ const Location = () => {
           </div>
           {/* trusted brands */}
           <div className="loc_3 flex flex-col sm:flex-row justify-between mt-[40px] mb-[20px]">
-            <h1 className="text-md sm:text-xl md:text-2xl lg:text-3xl font-black text-black font-['Barlow'] pr-4 pl-2">
+            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-black font-['Barlow'] pr-4 pl-2">
               TRUSTED BY MANY BRANDS
             </h1>
-            <div className=" grid grid-cols-3 lg:grid-cols-5 gap-y-4 md:ml-[7vw] lg:ml-[3vw] lg:p-[25px] p-[20px]">
+            <div className=" grid grid-cols-3 lg:grid-cols-5 gap-y-4 gap-x-8 md:ml-[7vw] lg:ml-[3vw] lg:p-[25px] p-[20px]">
               <img
-                className="w-[150px] lg:w-[180px] md:w-[180px] sm:w-[120px] grayscale hover:grayscale-0"
+                className="w-[100px] lg:w-[150px] md:w-[150px] sm:w-[120px] grayscale hover:grayscale-0"
                 src="https://storyvord.com/img/brand-logo11.svg"
                 alt="Logo"
               />
               <img
-                className="w-[150px] lg:w-[180px] md:w-[180px] sm:w-[120px] grayscale hover:grayscale-0"
+                className="w-[100px] lg:w-[150px] md:w-[150px] sm:w-[120px] grayscale hover:grayscale-0"
                 src="https://storyvord.com/img/brand-logo12.svg"
                 alt="Logo"
               />
               <img
-                className="w-[150px] lg:w-[180px] md:w-[180px] sm:w-[120px] grayscale hover:grayscale-0 "
+                className="w-[100px] lg:w-[150px] md:w-[150px] sm:w-[120px] grayscale hover:grayscale-0 "
                 src="https://storyvord.com/img/brand-logo13.svg"
                 alt="Logo"
               />
               <img
-                className="w-[150px] lg:w-[180px] md:w-[180px] sm:w-[120px] grayscale hover:grayscale-0"
+                className="w-[100px] lg:w-[150px] md:w-[150px] sm:w-[120px] grayscale hover:grayscale-0"
                 src="https://storyvord.com/img/brand-logo14.svg"
                 alt="Logo"
               />
               <img
-                className="w-[150px] lg:w-[180px] md:w-[180px] sm:w-[120px] grayscale hover:grayscale-0"
+                className="w-[100px] lg:w-[150px] md:w-[150px] sm:w-[120px] grayscale hover:grayscale-0"
                 src="https://storyvord.com/img/brand-logo15.svg"
                 alt="Logo"
               />

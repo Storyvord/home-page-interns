@@ -16,7 +16,7 @@ export default {
         }
       },
       fontFamily: {
-        'sans-serif': ["Josefin Sans"],
+        'sans_serif': ["Josefin Sans"],
         'barlow': ["Barlow"],
       },
 
