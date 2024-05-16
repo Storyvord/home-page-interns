@@ -4,5 +4,4 @@
 .loc_3 img {
   transition: ease-in-out;
   padding: 0 30px;
-  filter: grayscale(1);
 }
