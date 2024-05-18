@@ -6,11 +6,21 @@ import Work from "./components/Work";
 import Location from "./components/Location";
 import GetStarted from "./components/GetStarted";
 import Testimonials from "./components/Testimonials";
+import Services from "./components/Services";
+
 const App = () => {
   return (
     <>
       <GetStarted/>
       <Location/>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Services/>
+      <Work/>
+      <Location/>
+      <GetStarted/>
+      <Testimonials/>
     </>
   )
 }

@@ -2,7 +2,8 @@
 
 const About = () => {
   return (
-    <div className="text-2xl">About</div>
+    <section className="text-2xl border-2 border-green-300 max-w-full h-screen">About</section>
+    
   )
 }
 
