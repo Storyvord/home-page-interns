@@ -1,7 +1,7 @@
 const Hero = () => {
     return (
 <<<<<<< HEAD
-        <section class=" 2xl">Hero
+        <section class=" text-2xl">Hero
             
 =======
         <section className="flex items-center justify-between h-[655px] max-w-full bg-cover bg-center" style={{ backgroundImage: "url('https://storyvord.com/img/banner-bg.png')"}}>
