@@ -81,13 +81,13 @@ const Testimonials = () => {
           </div>
 
           {/* Left navigation button */}
-          <div className="absolute left-[10%] top-[60%] transform -translate-y-1/2 cursor-pointer z-20" onClick={handlePrevSlide}>
-            <img src="https://storyvord.com/img/circle-left.svg" alt="Left navigation" />
+          <div className="absolute left-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer z-20" onClick={handlePrevSlide}>
+            <img src="https://storyvord.com/img/circle-left.svg" alt="Left navigation" className='opacity-75 w-12 h-12'/>
           </div>
 
           {/* Right navigation button */}
-          <div className="absolute right-[10%] top-[60%] transform -translate-y-1/2 cursor-pointer z-20" onClick={handleNextSlide}>
-            <img src="https://storyvord.com/img/circle-right.svg" alt="Right navigation" />
+          <div className="absolute right-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer z-20" onClick={handleNextSlide}>
+            <img src="https://storyvord.com/img/circle-right.svg" alt="Right navigation" className='opacity-75 w-12 h-12' />
           </div>
         </div>
       </section>
