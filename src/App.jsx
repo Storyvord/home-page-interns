@@ -11,8 +11,7 @@ import Services from "./components/Services";
 const App = () => {
   return (
     <>
-      <GetStarted/>
-      <Location/>
+     
       <Navbar/>
       <Hero/>
       <About/>
