@@ -6,22 +6,23 @@ import Work from "./components/Work";
 import Location from "./components/Location";
 import GetStarted from "./components/GetStarted";
 import Testimonials from "./components/Testimonials";
-
-useState
+import Services from "./components/Services";
 
 const App = () => {
-
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Work/>
-    <Location/>
-    <GetStarted/>
-    <Testimonials/>
+      <GetStarted/>
+      <Location/>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Services/>
+      <Work/>
+      <Location/>
+      <GetStarted/>
+      <Testimonials/>
     </>
   )
 }
 
-export default App 
+export default App
