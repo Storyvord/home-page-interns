@@ -6,7 +6,7 @@ const About = () => {
           <div class="intro relative w-[85%] h-64  flex  space-x-4 ">
           <div class="aboutstoryvord relative w-[25vw]   flex  font-bold text-6xl font-barlow right-[6vw]">ABOUT <br /> STORYVORD </div>
         <div class="about   relative w-[60vw] h-80 top-[4vw] bg-[white]  py-[0vw] -mt-[4vw] p-[2vw]">
-           <h3 class="hd  text-[1.5vw] flex flex-row"><span class="under relative flex flex-row  mt-[1.3vw] h-[0.3vw] w-[6.3vw] mx-[1vw] bg-gradient-to-r from-[#012284]  via-[#1AA36E] to-[#25D865]" ></span> <b class="font-Josefin-Sans ">WE ARE STORYVORD, COMMUNITY OF CREATORS WORLDWIDE</b></h3>
+           <h3 class="hd  text-[1.5vw] flex flex-row"><span class="under relative flex flex-row  mt-[1.3vw] h-[0.3vw] w-[6.3vw] mx-[1vw] bg-gradient-to-r from-[#012284]  via-[#1AA36E] to-[#25D865]" ></span> <b class="font-Josefin-Sans mt-2">WE ARE STORYVORD, COMMUNITY OF CREATORS WORLDWIDE</b></h3>
                   <br />
             <p class="text-[1.2vw] font-Josefin-Sans px-[2vw] leading-none">We connect global filmmakers like writers, designers, video producers, animators, audio engineers, and photographers to connect with corporations, production agencies and brands in 18 countries.</p>
             <br />
