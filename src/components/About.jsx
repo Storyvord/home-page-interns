@@ -10,7 +10,7 @@ const About = () => {
                   <br />
             <p class="text-[1.3vw] font-Josefin-Sans px-[2vw] leading-none  mt-[1vw]">We connect global filmmakers like writers, designers, video producers, animators, audio engineers, and photographers to connect with corporations, production agencies and brands in 18 countries.</p>
             <br />
-            <p class="text-[1.3vw] font-Josefin-Sans px-[2vw] leading-none  mt-[0,8vw]">Our AI-powered process and global content-creator community reduce the cost of content creation by up to 50% through remote execution.</p>
+            <p class="text-[1.3vw] font-Josefin-Sans px-[2vw] leading-none  mt-[0.5vw]">Our AI-powered process and global content-creator community reduce the cost of content creation by up to 50% through remote execution.</p>
         </div>
     
        </div>
