@@ -16,9 +16,14 @@ export default {
         }
       },
       fontFamily: {
+
+        'sans_serif': ["Josefin Sans"],
+        'barlow': ["Barlow"],
+
         'josefin': ["Josefin Sans"],
         'barlow':["Barlow"],
         'barlow-2':["Barlow Condensed"]
+
 
       },
 
