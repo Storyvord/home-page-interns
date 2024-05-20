@@ -1,6 +1,6 @@
 
 const About = () => {
-  return <section className="text-2xl">
+  return <section className="">
   <div class="container  w-full h-[fit-content] flex flex-col items-center justify-center relative  left-[4vw] ">
           <div class=" h-[60%] absolute  -top-[1.8vw] left-[16.5vw] " ><img src="https://storyvord.com/img/camera-img1.svg" class="w-[11vw] " alt="" /></div> 
           <div class="intro relative w-[85%] h-64  flex  space-x-4 ">
