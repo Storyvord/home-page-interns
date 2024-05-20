@@ -28,6 +28,13 @@ export default {
         'barlow-2':["Barlow Condensed"],
         'jacquard':["Jacquard 12"],
 
+        'sans_serif': ["Josefin Sans"],
+        'barlow': ["Barlow"],
+
+        'josefin': ["Josefin Sans"],
+        'barlow':["Barlow"],
+        'barlow-2':["Barlow Condensed"]
+
 
       },
 
