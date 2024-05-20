@@ -4,7 +4,7 @@ const About = () => {
   <div class="container  w-full h-[fit-content] flex flex-col items-center justify-center relative  left-[4vw] ">
           <div class=" h-[60%] absolute  -top-[1.8vw] left-[16.5vw] " ><img src="https://storyvord.com/img/camera-img1.svg" class="w-[11vw] " alt="" /></div> 
           <div class="intro relative w-[85%] h-64  flex  space-x-4 ">
-          <div class="aboutstoryvord relative w-[25vw]   flex  font-bold text-4xl font-barlow">ABOUT <br /> STORYVORD </div>
+          <div class="aboutstoryvord relative w-[25vw]   flex  font-bold text-6xl font-barlow right-12">ABOUT <br /> STORYVORD </div>
         <div class="about   relative w-[60vw] h-80 top-[4vw] bg-[white]  py-[0vw] -mt-[4vw] p-[2vw]">
            <h3 class="hd  text-[1.5vw] flex flex-row"><span class="under relative flex flex-row  mt-[1.3vw] h-[0.3vw] w-[6.3vw] mx-[1vw] bg-gradient-to-r from-[#012284]  via-[#1AA36E] to-[#25D865]" ></span> <b class="font-Josefin-Sans ">WE ARE STORYVORD, COMMUNITY OF CREATORS WORLDWIDE</b></h3>
                   <br />
