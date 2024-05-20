@@ -18,8 +18,8 @@ export default {
       fontFamily: {
         'josefin': ["Josefin Sans"],
         'barlow':["Barlow"],
-        'barlow-2':["Barlow Condensed"]
-
+        'barlow-2':["Barlow Condensed"],
+        'jacquard':["Jacquard 12"],
       },
 
     },
