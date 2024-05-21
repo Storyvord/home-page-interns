@@ -33,7 +33,12 @@ export default {
 
         'josefin': ["Josefin Sans"],
         'barlow':["Barlow"],
+
+        'barlow-2':["Barlow Condensed"],
+        'jacquard':["Jacquard 12"],
+
         'barlow-2':["Barlow Condensed"]
+
 
 
       },
