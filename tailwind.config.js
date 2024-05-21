@@ -20,10 +20,14 @@ export default {
         'radial-to-black': 'radial-gradient(circle, transparent 1%, black 100%)',
       },
       fontFamily: {
+
         'sans_serif': ["Josefin Sans"],
         'barlow': ["Barlow"],
+        
         'josefin': ["Josefin Sans"],
         'bar_cd':["Barlow Condensed"],
+        'barlow':["Barlow"],
+        'barlow-2':["Barlow Condensed"]
       },
     },
     screens: {
