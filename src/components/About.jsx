@@ -1,6 +1,6 @@
 
 const About = () => {
-  return <section className="text-xl border-2 border-cyan-600 border-solid">
+  return <section className="text-xl ">
   <div className="  w-full h-[1100px] flex flex-col items-center justify-center relative  ">
           <div className=" h-[60%] absolute  top-[5.8vw] left-[16.5vw] -z-10" ><img src="https://storyvord.com/img/camera-img1.svg" className="w-[11vw] " alt="" /></div> 
           <div className="relative w-[85%] h-64  flex  space-x-4 ">
