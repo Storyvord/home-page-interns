@@ -1,7 +1,7 @@
 const Hero = () => {
     return (
 
-        <div className='text-2xl'>Hero</div>
+        
 
         <section className="flex items-center justify-between h-[640px] max-w-full bg-cover bg-center" style={{ backgroundImage: "url('https://storyvord.com/img/banner-bg.png')" }}>
             <div className="relative text-left flex-col p-0 px-3 py-4 lg:ml-24 xl:w-1/2 top-[-40px] text-white">
@@ -52,6 +52,6 @@ const Hero = () => {
 
 
     )
-}
+};
 
 export default Hero
