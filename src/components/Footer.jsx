@@ -37,7 +37,7 @@ function Footer() {
             <h1 className=" font-barlow-2 text-2xl sm:text-3xl md:text-4xl font-bold text-white">HAVE A QUESTION?</h1>
             <br />
             <br />
-            <form className=" text-white w-[100%] flex flex-col gap-2">
+            <form className=" text-white w-[99%] flex flex-col gap-2">
               <div className="flex flex-col sm:flex-row gap-2 w-full">
               <input type="text" name="fname" className=" bg-[#393943] focus:bg-black focus:outline-[#25D765] focus:outline-none sm:w-1/2 h-10 lg:h-12 p-4 font-semibold font-josefin " placeholder="First Name" />
               <input type="text" name="sname" className=" bg-[#393943] focus:bg-black focus:outline-[#25D765] focus:outline-none sm:w-1/2 h-10 lg:h-12 p-4 font-semibold font-josefin" placeholder="Last Name" />
