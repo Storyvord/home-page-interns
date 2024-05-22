@@ -12,7 +12,6 @@ import Services from "./components/Services";
 const App = () => {
   return (
     <>
-      <div className=" overflow-x-hidden">
       <Navbar/>
       <Hero/>
       <About/>
@@ -20,9 +19,8 @@ const App = () => {
       <Work/>
       <GetStarted/>
       <Location/>
-      {/* <Testimonials/> */}
+      <Testimonials/>
       <Footer/>  
-      </div>
     </>
   )
 }
