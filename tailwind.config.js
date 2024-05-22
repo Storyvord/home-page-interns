@@ -15,12 +15,7 @@ export default {
           800:"#023e8a"
         }
       },
-      backgroundImage: {
-        'radial-from-center': 'radial-gradient(circle, transparent 1%, black 1%)',
-        'radial-to-black': 'radial-gradient(circle, transparent 1%, black 100%)',
-      },
       fontFamily: {
-
         'sans_serif': ["Josefin Sans"],
         'barlow': ["Barlow"],
         'josefin': ["Josefin Sans"],
