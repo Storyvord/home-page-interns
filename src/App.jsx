@@ -1,6 +1,8 @@
 const App = () => {
   return (
-    <div className=" h-screen flex justify-center items-center font-semibold text-3xl">Happy Coding</div>
+    <div className=" h-screen flex justify-center items-center font-semibold text-3xl">
+      Happy Coding!
+    </div>
   )
 }
 
