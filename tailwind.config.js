@@ -21,7 +21,6 @@ export default {
           'barlow':["Barlow"],
 
           'josefin': ["Josefin Sans"],
-          'barlow':["Barlow"],
           'barlow-2':["Barlow Condensed"],
 
           'Josefin-Sans': ["Josefin Sans"],
