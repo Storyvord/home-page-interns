@@ -1,9 +1,9 @@
 // import React from 'react'
 
-const Testimonials = () => {
-  return (
-    <div className='text-2xl'>Testimonials</div>
-  )
+const Services = () => {
+    return (
+        <div className='border-2 border-teal-500 max-w-full h-[500px]'>Services</div>
+    )
 }
 
-export default Testimonials
+export default Services

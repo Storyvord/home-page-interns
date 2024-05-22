@@ -2,7 +2,7 @@
 
 const Services = () => {
     return (
-        <div className='border-2 border-teal-500 max-w-full h-[500px]'>Services</div>
+        <div className='text-2xl'>Services</div>
     )
 }
 
