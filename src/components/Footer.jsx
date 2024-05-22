@@ -45,7 +45,7 @@ function Footer() {
               <input type="email" name="email" className=" bg-[#393943] focus:bg-black focus:outline-[#25D765] focus:outline-none h-10 lg:h-12 p-4 font-semibold font-josefin" placeholder="Email" />
               <input type="phone" name="phone" className=" bg-[#393943] focus:bg-black focus:outline-[#25D765] focus:outline-none h-10 lg:h-12 p-4 font-semibold font-josefin" placeholder="Phone" />
               <textarea className=" bg-[#393943] focus:bg-black focus:outline-[#25D765] focus:outline-none p-4 font-semibold font-josefin" name="message" id="" cols="20" rows="4" placeholder="Message"></textarea>
-               <div className="bg-gradient-to-l from-[#25D765] to-[#092579] h-12 w-[200px] font-bold font-barlow flex justify-between p-2 pl-4">
+               <div className=" cursor-pointer bg-gradient-to-l from-[#25D765] to-[#092579]  hover:bg-gradient-to-r from-[#25D765] to-[#092579] h-12 w-[200px] font-bold font-barlow flex justify-between p-2 pl-4">
                  <input type="submit" value="SUBMIT" />
                  <HiArrowLongRight className=" size-8"/>
                </div>
@@ -59,7 +59,7 @@ function Footer() {
          <div className=' flex justify-between flex-wrap'>
          <div className=" w-full md:w-3/4 xl:w-[20vw] flex flex-col mx-auto xl:mx-0 justify-center mb-10">
           <div className=' flex justify-center'>
-            <img src="https://storyvord.com/img/logo.svg" alt="logo" className=' w-[200px] h-[100px] md:w-[250px] md:h-[150px] lg:w-[150px] lg:h-[75px]' />
+            <img src="https://storyvord.com/img/logo.svg" alt="logo" className=' cursor-pointer w-[200px] h-[100px] md:w-[250px] md:h-[150px] lg:w-[150px] lg:h-[75px]' />
           </div>
             <p className=" font-josefin text-center xl:text-left">Storyvord makes it easy to get creative content for your business, produced quickly and at scale, and supported by a strong creator team and with exclusive performance statistics.</p>
             <div className="flex gap-4 mt-4 ml-2 justify-center">
@@ -101,8 +101,8 @@ function Footer() {
           <div className=" mt-3 mb-8 w-[90vw] xxs:w-48 xsm:w-full md:w-[30vw] xl:w-[25vw] flex flex-col"> 
             <h1 className=" font-bar_cd text-lg sm:text-xl font-bold">JOIN OUR NEWSLETTER</h1>
             <p className=" mt-2 md:mt-4 sm:text-base font-josefin">In a professional context it often happens that private or corporate.</p>
-            <input type="email" name="email" className=" bg-[#393943] h-12 p-4 w-[90%] mt-2 font-semibold font-josefin" placeholder="Enter Your Email" />
-            <div className="bg-gradient-to-l from-[#25D765] to-[#092579] h-12 w-[90%] font-bold font-barlow flex justify-between p-2 pl-4 mt-3">
+            <input type="email" name="email" className=" bg-[#393943]  focus:bg-black focus:outline-[#25D765] focus:outline-none h-12 p-4 w-[90%] mt-2 font-semibold font-josefin" placeholder="Enter Your Email" />
+            <div className=" cursor-pointer bg-gradient-to-l from-[#25D765] to-[#092579] hover:bg-gradient-to-r from-[#25D765] to-[#092579] h-12 w-[90%] font-bold font-barlow flex justify-between p-2 pl-4 mt-3">
                  <input type="submit" value="SUBMIT" />
                  <HiArrowLongRight className=" size-8"/>
                </div>

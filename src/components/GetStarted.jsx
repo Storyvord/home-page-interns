@@ -2,7 +2,7 @@
 const GetStarted = () => {
     return (
         <div>
-            <div className="bg-[url('https://storyvord.com/img/lower-production.png')] h-[100vh] w-auto bg-no-repeat bg-cover bg-fixed">
+            <div className="bg-[url('https://storyvord.com/img/lower-production.png')] h-[100vh] w-auto bg-no-repeat bg-cover bg-fixed relative">
        <div className="">
         <div className=" text-white pt-[20px] md:pt-[70px] lg:absolute  p-8 lg:right-[80px] lg:bottom-[30px] h-auto md:w-[60vw] lg:w-[45vw] 2xl:w-[40vw]">
              <h1 className="text-[25px] sm:text-[45px] font-barlow font-bold">GET STARTED NOW</h1>
