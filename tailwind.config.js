@@ -16,18 +16,18 @@ export default {
         }
       },
       fontFamily: {
-          'Josefin-Sans': ["Josefin Sans"],
-          'barlow':["Barlow"],
-          'barlow-2':["Barlow Condensed"],
-          'jacquard':["Jacquard 12"],
-  
+          
           'sans_serif': ["Josefin Sans"],
-          'barlow': ["Barlow"],
-  
+          'barlow':["Barlow"],
+
           'josefin': ["Josefin Sans"],
           'barlow':["Barlow"],
-          'barlow-2':["Barlow Condensed"]
+          'barlow-2':["Barlow Condensed"],
+
+          'Josefin-Sans': ["Josefin Sans"],
+          'jacquard':["Jacquard 12"],
       },
+      
     },
     screens: {
       'xxs':'325px',
