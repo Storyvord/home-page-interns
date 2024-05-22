@@ -23,10 +23,8 @@ export default {
 
         'sans_serif': ["Josefin Sans"],
         'barlow': ["Barlow"],
-        
         'josefin': ["Josefin Sans"],
         'bar_cd':["Barlow Condensed"],
-        'barlow':["Barlow"],
         'barlow-2':["Barlow Condensed"]
       },
     },
