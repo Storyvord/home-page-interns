@@ -12,9 +12,9 @@ import Testimonials from "./components/Testimonials";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Hero />
-      <About />
+      <About /> */}
       <Work />
       <GetStarted />
       <Location />
