@@ -72,7 +72,7 @@ const Testimonials = () => {
 
                             {data.map((d, index) => (
                                 <div key={index} className='testimonial-item'>
-                                    <div className='testimonial-content text-center rounded-3xl lg:p-8 p-7 bg-[#000821]'
+                                    <div className='testimonial-content text-center rounded-3xl lg:p-8 p-4 bg-[#000821]'
                                         style={{ height: '110%' }}>
                                         <p className='text-[16px] font-Josefin-Sans font-semibold text-white py-2'>{d.description}</p>
                                         <h3 className='text-[30px] font-extrabold font-barlow text-white uppercase py-1'>{d.name}</h3>
@@ -81,17 +81,17 @@ const Testimonials = () => {
                             ))}
                         </OwlCarousel>
                     </div>
+            
+                        {/* Left navigation button */}
+                        <div className="lg:absolute left-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20 items-stretch" onClick={handlePrevSlide}>
+                            <img src="https://storyvord.com/img/circle-left.svg" alt="Left navigation" className='opacity-75 w-12 h-12' />
+                        </div>
 
-                    {/* Left navigation button */}
-                    <div className="lg:absolute lg:left-[15%] lg:top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20" onClick={handlePrevSlide}>
-                        <img src="https://storyvord.com/img/circle-left.svg" alt="Left navigation" className='opacity-75 w-12 h-12' />
+                        {/* Right navigation button */}
+                        <div className="lg:absolute right-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20" onClick={handleNextSlide}>
+                            <img src="https://storyvord.com/img/circle-right.svg" alt="Right navigation" className='opacity-75 w-12 h-12' />
+                        </div>
                     </div>
-
-                    {/* Right navigation button */}
-                    <div className="lg:absolute lg:right-[15%] lg:top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20" onClick={handleNextSlide}>
-                        <img src="https://storyvord.com/img/circle-right.svg" alt="Right navigation" className='opacity-75 w-12 h-12' />
-                    </div>
-                </div>
             </section>
         </>
     );

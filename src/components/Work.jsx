@@ -94,7 +94,7 @@ const Work = () => {
                         >
                             {sliderImageUrl.map((imageUrl, index) => (
                                 <div className="mx-2 lg:mx-2 relative overflow-x-hidden overflow-y-hidden" key={index}>
-                                    <div className=" bg-gradient-to-b from-transparent via-transparent to-black absolute left-0 bottom-0 h-[35%] w-[100%] lg:w-[25vw] z-1">text</div>
+
                                     <img
                                         src={imageUrl.url}
                                         alt="movie"
