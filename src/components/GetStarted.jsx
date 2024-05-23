@@ -13,9 +13,9 @@ const GetStarted = () => {
              <br />
              <button className="des h-auto w-auto bg-gradient-to-r from-[#092579] to-[#25D765]
               sm:py-[14px] sm:px-[22px] py-[5px] px-[4px] rounded-sm font-bold font-barlow text-[15px] sm:text-[20px]">GET IN TOUCH</button>
-        </div>
-       </div>
-     </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

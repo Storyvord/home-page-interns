@@ -7,20 +7,19 @@ import Location from "./components/Location";
 import GetStarted from "./components/GetStarted";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
-import Services from "./components/Services";
+
 
 const App = () => {
   return (
-      <>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <Work/>
-      <GetStarted/>
-      <Location/>
-      <Testimonials/>
-      <Footer/>  
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Work />
+      <GetStarted />
+      <Location />
+      <Testimonials />
+      <Footer/> 
     </>
   )
 }

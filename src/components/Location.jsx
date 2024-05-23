@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import { useState } from 'react'
 import { destn } from '../data/destination';
 const Location = () => {
 
@@ -20,12 +20,12 @@ const Location = () => {
            <p className=" des text-[#454242] text-[20px] md:text-[25px] 2xl:text-[28px] font-normal  lg:mr-[100px] lg:ml-[50px] 2xl:ml-[-15vw] md:w-[35vw] font-sans_serif">
            With our network of creators, you can choose any location for your
               videos, from major cities to the most remote areas on the planet
-           </p>
-         </div> 
+            </p>
+          </div>
           {/* location images */}
           <div className=" mt-[40px] lg:mr-[80px] p-[15px] grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 pt-4">
             {locs.map((item) => (
-              <div className=" relative flex font-bold overflow-x-hidden overflow-y-hidden ">
+              <div className=" relative flex font-bold overflow-x-hidden overflow-y-hidden" key={location}>
                 <div className=" bg-gradient-to-b from-transparent via-transparent to-black absolute left-0 bottom-0 h-[35%] w-[100%] lg:w-[25vw] z-1 "></div>
                 <img
                   className=" h-auto w-[100%] hover:rotate-[2deg] transition-all duration-500 hover:scale-110"
@@ -71,9 +71,8 @@ const Location = () => {
                 />
             </div>
           </div>
-       </div>
-       </div>
-     </section>
+        </div>
+  </section>
     </>
   );
 }
