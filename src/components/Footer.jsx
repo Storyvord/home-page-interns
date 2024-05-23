@@ -113,7 +113,7 @@ function Footer() {
          <hr className="mt-15 sm:mt-0 xl:ml-[63px] xl:mr-[70px] " />
 
          <div className="text-white lg:ml-[75px] lg:mr-[75px] p-4 flex flex-col-reverse sm:flex-row gap-2 justify-between mx-auto">
-          <p className=" font-josefin flex mx-auto sm:mx-0 text-center">© 2024 Storyvord Limited, All rights reserved!</p>
+          <p className=" font-josefin flex mx-auto sm:mx-0 text-center">© 2024 Storyvord Limited, All rights reserved</p>
           <img src="https://storyvord.com/img/footer-pay-img.svg" alt="" className='w-[80vw] xsm:w-[70vw] sm:w-fit flex mx-auto sm:mx-0' />
         </div>
       </section>
