@@ -1,29 +1,29 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import { destn } from '../data/destination';
 const Location = () => {
 
   const [locs, setLocs] = useState(destn);
   return (
     <>
-     <section>
-       <div className=" hidden sm:flex justify-evenly sm:bg-gradient-to-b from-[#092579] to-[#25D765] box-border min-h-[250vh] w-[40%] md:w-[33%]
+      <section>
+        <div className="hidden sm:flex justify-evenly sm:bg-gradient-to-b from-[#092579] to-[#25D765] box-border min-h-[250vh] w-[40%] md:w-[33%]
          md:ml-[150px]  top-0 -z-10">
           <div className=" bg-gray-500 bg-opacity-50 w-0.5 min-h-[100%]"></div>
           <div className=" bg-gray-500 bg-opacity-50 w-0.5 min-h-[100%]"></div>
-       </div>
-       <div className="locBox ml-[2vw] md:ml-[19vw] flex-col mt-[7vh] sm:mt-[-240vh]">
-         <div className="grid grid-cols-1 sm:grid-cols-2 ">
-           <h1 className="text-black sm:text-white h-[150px] w-[280px] p-4 md:w-[25vw] 2xl:w-[19vw] text-2xl md:text-4xl font-barlow font-black">
-            MOST POPULAR LOCATION WE WORK ON</h1>
-           <p className=" des text-[#454242] text-[20px] md:text-[25px] 2xl:text-[28px] font-normal  lg:mr-[100px] lg:ml-[50px] 2xl:ml-[-15vw] md:w-[35vw] font-sans_serif">
-           With our network of creators, you can choose any location for your
+        </div>
+        <div className="locBox ml-[2vw] md:ml-[19vw] flex-col mt-[7vh] sm:mt-[-240vh]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 ">
+            <h1 className="text-black sm:text-white h-[150px] w-[280px] p-4 md:w-[25vw] 2xl:w-[19vw] text-2xl md:text-4xl font-barlow font-black">
+              MOST POPULAR LOCATION WE WORK ON</h1>
+            <p className=" des text-[#454242] text-[20px] md:text-[25px] 2xl:text-[28px] font-normal  lg:mr-[100px] lg:ml-[50px] 2xl:ml-[-15vw] md:w-[35vw] font-sans_serif">
+              With our network of creators, you can choose any location for your
               videos, from major cities to the most remote areas on the planet
-           </p>
-         </div> 
+            </p>
+          </div>
           {/* location images */}
           <div className="all_loc mt-[40px] lg:mr-[80px] p-[15px] grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 pt-4">
             {locs.map((item) => (
-              <div className="location relative flex font-bold overflow-x-hidden overflow-y-hidden">
+              <div className="location relative flex font-bold overflow-x-hidden overflow-y-hidden" key={location}>
                 <div className=" bg-gradient-to-b from-transparent via-transparent to-black absolute left-0 bottom-0 h-[35%] w-[100%] lg:w-[25vw] z-1 "></div>
                 <img
                   className=" h-auto w-[100%] hover:rotate-[2deg] hover:scale-110"
@@ -69,8 +69,8 @@ const Location = () => {
               />
             </div>
           </div>
-       </div>
-     </section>
+        </div>
+      </section>
     </>
   );
 }
