@@ -20,7 +20,10 @@ const Hero = () => {
                                 <p className=" underline underline-offset-8  text-[20px] font-barlow-2 bg-gradient-to-r from-[#03256c] to-green-500 bg-clip-text text-transparent font-extrabold " >Start Creating Now</p></div>
                         </div> </div>
                 </div>
-                <div className="foot w-full h-20 relative top-[180px] left-[74%] flex justify-between">
+              
+            </div>
+    
+            <div className="foot w-[50vw]   h-20 relative top-[280px] left-[0vw] flex justify-between md:right-[-20vw]">
                     <img src="https://storyvord.com/img/svgicon/move-icon22.svg" className="" alt="" />
                     <img src="https://storyvord.com/img/svgicon/move-icon11.svg" className="" alt="" />
                     <img src="https://storyvord.com/img/svgicon/move-icon33.svg" className="" alt="" />
@@ -28,8 +31,6 @@ const Hero = () => {
                     <img src="https://storyvord.com/img/svgicon/move-icon55.svg" className="" alt="" />
                     <img src="https://storyvord.com/img/svgicon/move-icon66.svg" className="" alt="" />
                 </div>
-            </div>
-
 
             <div className="h-full w-32 bg-black flex flex-col justify-center align-middle gap-10 px-12">
                 <a href="https://www.facebook.com/storyvord">
