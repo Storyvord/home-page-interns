@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import { destn } from '../data/destination';
 const Location = () => {
 
@@ -23,7 +23,7 @@ const Location = () => {
           {/* location images */}
           <div className="all_loc mt-[40px] lg:mr-[80px] p-[15px] grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 pt-4">
             {locs.map((item) => (
-              <div className="location relative flex font-bold overflow-x-hidden overflow-y-hidden ">
+              <div className="location relative flex font-bold overflow-x-hidden overflow-y-hidden">
                 <div className=" bg-gradient-to-b from-transparent via-transparent to-black absolute left-0 bottom-0 h-[35%] w-[100%] lg:w-[25vw] z-1 "></div>
                 <img
                   className=" h-auto w-[100%] hover:rotate-[2deg] hover:scale-110"
