@@ -83,7 +83,7 @@ const Testimonials = () => {
                             ))}
                         </OwlCarousel>
                     </div>
-                    <div className='flex lg:flex-col flex-row mt-5 space-x-4'>
+                    <div className='flex lg:flex-col flex-row mt-10 space-x-4'>
                         {/* Left navigation button */}
                         <div className="lg:absolute left-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20 items-stretch" onClick={handlePrevSlide}>
                             <img src="https://storyvord.com/img/circle-left.svg" alt="Left navigation" className='opacity-75 w-12 h-12' />
