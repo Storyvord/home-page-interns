@@ -7,8 +7,17 @@ const Hero = () => {
                 <h1 className="text-[40px] lg:text-[64px] font-bold leading-none tracking-[1px] font-barlow-2 py-2">WE HELP SHOOT CONTENT ANYWHERE IN THE WORLD</h1>
                 <p className="lg:text-[18px] text-[16px] lg:mt-1 lg:py-3 mt-1 py-3 font-josefin text-extrabold w-3/4">Our AI-powered tools make the production process more efficient and save costs up to 50%</p>
             </div>
+    
+            <div className="foot w-[50vw]   h-20 relative top-[280px] left-[0vw] flex justify-between md:right-[-20vw]">
+                    <img src="https://storyvord.com/img/svgicon/move-icon22.svg" className="" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon11.svg" className="" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon33.svg" className="" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon44.svg" className="" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon55.svg" className="" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon66.svg" className="" alt="" />
+                </div>
 
-            <div className="h-full w-32 bg-black lg:flex flex-col justify-center align-middle gap-10 px-12 hidden">
+            <div className="h-full w-32 bg-black flex flex-col justify-center align-middle gap-10 px-12">
                 <a href="https://www.facebook.com/storyvord">
                     <div className="text-white flex">
                         <img src="https://storyvord.com/img/social-media-icon1.svg" alt="facebook" className="h-6 w-6" />
