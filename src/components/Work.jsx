@@ -74,11 +74,11 @@ const Work = () => {
                 <div className="text-white text-left w-full lg:w-4/5 py-4">
                     <h2 className="text-[30px] lg:text-[40px] font-bold font-barlow-2 uppercase">Our Work</h2>
                     <p className="font-Josefin-Sans text-[16px] lg:text-[20px] py-2">Content for any audience, goal, or budget</p>
-                    <div className="relative text-white">
+                    <div className="relative text-white z-[100]">
 
                         <img
                             src="https://storyvord.com/img/drag.svg"
-                            className="hover:scale-75 transform-none absolute top-[-30px] right-0 lg:top-[-38px] mt-[-48px] cursor-pointer"
+                            className="hover:scale-75 transform-none absolute lg:right-0 lg:top-[-38px] lg:mt-[-48px] cursor-pointer bottom-[-500px] right-[-5%]"
                             alt="drag"
                             onClick={handleNext}
                         />
@@ -98,7 +98,7 @@ const Work = () => {
                                     <img
                                         src={imageUrl.url}
                                         alt="movie"
-                                        className="w-full h-full transform hover:scale-110 hover:rotate-[2deg] transition-transform duration-300 ease-in-out"
+                                        className="lg:w-full lg:h-full w-auto h-auto transform hover:scale-110 hover:rotate-[2deg] transition-transform duration-300 ease-in-out z-[60]"
                                     />
                                     <h6 className="absolute bottom-2 left-2 text-white bg-opacity-50 px-2 py-1 font-barlow-2 font-bold uppercase">
                                         {imageUrl.name}
@@ -108,8 +108,8 @@ const Work = () => {
                         </Carousel>
                     </div>
                 </div>
-                <div className="absolute bottom-0 left-5 h-12">
-                    <img src="https://storyvord.com/img/camera-img2.svg" alt="camera" className="mt-[-90px] h-25 w-25" />
+                <div className="absolute bottom-0 left-5 h-12 z-50 mb-2">
+                    <img src="https://storyvord.com/img/camera-img2.svg" alt="camera" className="lg:h-25 lg:w-25 h-24 w-24 mt-[-12px] lg:mt-0" />
                 </div>
             </div>
         </section>
