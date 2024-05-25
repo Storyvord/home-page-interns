@@ -39,13 +39,13 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="lg:w-96 w-64 lg:h-24 md:top-[140px] h-10 relative top-[170px] lg:top-[165px] lg:left-[10%] md:left-0 flex justify-between md:space-x-4 lg:space-x-8 lg:px-8 space-x-2 ml-5">
-                    <img src="https://storyvord.com/img/svgicon/move-icon22.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-20 md:h-20" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon11.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-20 md:h-20" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon33.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-20 md:h-20" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon44.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-20 md:h-20" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon55.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-20 md:h-20" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon66.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-20 md:h-20" alt="" />
+                <div className="lg:w-96 w-64 lg:h-24 md:top-[140px] h-10 relative top-[170px] lg:top-[165px] lg:left-[10%] md:left-[-5%] flex justify-between md:space-x-4 lg:space-x-8 lg:px-8 space-x-2 ml-5">
+                    <img src="https://storyvord.com/img/svgicon/move-icon22.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-18 md:h-20" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon11.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-18 md:h-20" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon33.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-18 md:h-20" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon44.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-18 md:h-20" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon55.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-18 md:h-20" alt="" />
+                    <img src="https://storyvord.com/img/svgicon/move-icon66.svg" className="ml-2 lg:w-20 lg:h-20 w-12 h-18 md:w-18 md:h-20" alt="" />
                 </div>
             </div>
         </div>
