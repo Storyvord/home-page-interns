@@ -6,17 +6,8 @@ const Hero = () => {
                 <h1 className="text-[40px] lg:text-[64px] font-bold leading-none tracking-[1px] font-barlow-2 py-2">WE HELP SHOOT CONTENT ANYWHERE IN THE WORLD</h1>
                 <p className="lg:text-[18px] text-[16px] lg:mt-1 lg:py-3 mt-1 py-3 font-josefin text-extrabold w-3/4">Our AI-powered tools make the production process more efficient and save costs up to 50%</p>
             </div>
-    
-            <div className="foot w-[50vw]   h-20 relative top-[280px] left-[0vw] flex justify-between md:right-[-20vw]">
-                    <img src="https://storyvord.com/img/svgicon/move-icon22.svg" className="" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon11.svg" className="" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon33.svg" className="" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon44.svg" className="" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon55.svg" className="" alt="" />
-                    <img src="https://storyvord.com/img/svgicon/move-icon66.svg" className="" alt="" />
-                </div>
 
-            <div className="h-full w-32 bg-black flex flex-col justify-center align-middle gap-10 px-12">
+            <div className="h-full w-32 bg-black lg:flex flex-col justify-center align-middle gap-10 px-12 hidden">
                 <a href="https://www.facebook.com/storyvord">
                     <div className="text-white flex">
                         <img src="https://storyvord.com/img/social-media-icon1.svg" alt="facebook" className="h-6 w-6" />
@@ -33,9 +24,9 @@ const Hero = () => {
                     </div>
                 </a>
             </div>
-            <div className="absolute lg:bottom-0 lg:h-64 lg:max-w-full w-96 flex lg:flex-row flex-col lg:space-x-8 lg:mb-0 mb-[-200px] lg:mt-11 md:flex-end">
+            <div className="absolute lg:bottom-0 lg:h-64 lg:max-w-full w-96 flex lg:flex-row flex-col lg:space-x-8 lg:mb-0 mb-[-200px] lg:mt-11 md:flex-end lg:ml-8">
                 <div className="lg:mt-[-30px] w-full lg:w-80 lg:ml-10">
-                    <div className="lg:h-48 lg:w-64 h-24 w-full lg:ml-10">
+                    <div className="lg:h-48 lg:w-64 h-24 w-full lg:ml-3 lg:mr-11">
                         <div className="flex flex-row justify-between bg-gradient-to-r from-[#03256c] to-green-500 py-4 relative top-10 w-full lg:w-96 lg:h-20 h-24">
                             <button className="lg:py-1 lg:px-5 px-2 py-1 pb-8 lg:text-[20px] text-[12px] font-barlow font-extrabold text-left mb-0 tracking-normal text-white">Get In Touch</button>
                             <img src="https://storyvord.com/img/right-arrow.svg" className="text-right lg:px-5 px-1 w-12 h-12 lg:w-24 lg:h-24 py-3 lg:py-2.5 lg:pb-12" alt="arrow" />
@@ -48,7 +39,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="lg:w-96 w-full lg:h-24 h-10 relative lg:top-[165px] top-[135px] flex justify-between lg:space-x-8 space-x-2 lg:px-8 md:space-x-1 lg:ml-20 md:mr-1">
+                <div className="lg:w-96 w-full lg:h-24 h-10 relative lg:top-[165px] top-[135px] flex justify-between lg:space-x-4 space-x-2 lg:px-11 md:space-x-1 lg:ml-[20px] md:mr-1">
                     <img src="https://storyvord.com/img/svgicon/move-icon22.svg" className="ml-2 lg:ml-1 md:ml-0.5 lg:w-20 lg:h-20 w-12 h-14 md:w-15 md:h-18" alt="" />
                     <img src="https://storyvord.com/img/svgicon/move-icon11.svg" className="ml-2 lg:ml-1 md:ml-0.5  lg:w-20 lg:h-20 w-12 h-14 md:w-15 md:h-18" alt="" />
                     <img src="https://storyvord.com/img/svgicon/move-icon33.svg" className="ml-2 lg:ml-1  md:ml-0.5 lg:w-20 lg:h-20 w-12 h-14 md:w-15 md:h-18" alt="" />
@@ -57,9 +48,7 @@ const Hero = () => {
                     <img src="https://storyvord.com/img/svgicon/move-icon66.svg" className="ml-2 lg:ml-1 md:ml-0.5 lg:w-20 lg:h-20 w-12 h-14 md:w-15 md:h-18" alt="" />
                 </div>
             </div>
-
         </div>
-
     )
 };
 
