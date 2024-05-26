@@ -78,7 +78,7 @@ const Work = () => {
 
                         <img
                             src="https://storyvord.com/img/drag.svg"
-                            className="hover:scale-75 transform-none absolute lg:right-0 lg:top-[-38px] lg:mt-[-48px] cursor-pointer bottom-[-500px] right-[-5%]"
+                            className="hover:scale-75 transform-none absolute lg:right-0 lg:top-[-38px] lg:mt-[-48px] cursor-pointer bottom-[-499px] right-[-5%] md:right-[-2%]"
                             alt="drag"
                             onClick={handleNext}
                         />
