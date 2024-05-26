@@ -1,7 +1,5 @@
-// import React from 'react'
-
+import { useRef, useEffect } from "react";
 import OwlCarousel from 'react-owl-carousel';
-import { useRef } from 'react';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
@@ -20,6 +18,19 @@ const Testimonials = () => {
         }
     };
 
+    const handleTouchStart = () => {
+        // Log touch start event
+        console.log('Touch start event detected');
+    };
+
+    useEffect(() => {
+        document.addEventListener('touchstart', handleTouchStart, { passive: true });
+
+        return () => {
+            document.removeEventListener('touchstart', handleTouchStart);
+        };
+    }, []);
+
     const data = [
         {
             name: 'Matthew Turner',
@@ -36,67 +47,57 @@ const Testimonials = () => {
     ];
 
     return (
-        <>
-            <section>
-                <div className='text-white h-[600px] bg-[#092679] flex flex-col items-center relative'>
-                    {/* <img src="https://storyvord.com/img/action-bx.svg" alt="" /> */}
-                    <h2 className="md:text-[37px] text-[23px] lg:text-[48px] font-barlow-2 font-bold uppercase text-center tracking-wide lg:py-20 py-10 p-8 mt-[20px] mb-15">
-                        Why Creators love <span className="uppercase text-green-400 tracking-wide">Storyvord?</span>
-                    </h2>
+        <section>
+            <div className='text-white h-[600px] bg-[#092679] flex flex-col items-center relative'>
+                <h2 className="md:text-[37px] text-[23px] lg:text-[48px] font-barlow-2 font-bold uppercase text-center tracking-wide lg:py-20 py-10 p-8 mt-[20px] mb-15">
+                    Why Creators love <span className="uppercase text-green-400 tracking-wide">Storyvord?</span>
+                </h2>
 
-                    <div className='lg:w-[60%] w-35% overflow-hidden lg:mx-auto mx-3 my-[-2px] relative'>
-                        <OwlCarousel
-                            className='owl-theme'
-                            ref={carouselRef}
-                            loop={true}
-                            margin={15}
-                            slideBy={1}
-                            dots={false}
-                            stageElement='div'
-                            touchDragEnabled={true}
-                            center={true}
-                            responsive={{
-                                0: {
-                                    items: 1,
-                                    nav: false
-                                },
-                                768: {
-                                    items: 2,
-                                    nav: false
-                                },
-                                1100: {
-                                    items: 1.5,
-                                    nav: false
-                                }
-                            }}
-                        >
-
-                            {data.map((d, index) => (
-                                <div key={index} className=''>
-                                    <div className='text-center rounded-3xl lg:p-8 p-4 mx-3 bg-[#000821] lg:h-110% h-90%'
-                                        // style={{ height: '110%' }}
-                                        >
-                                        <p className='lg:text-[16px] text-[15px] font-Josefin-Sans font-semibold text-white py-2'>{d.description}</p>
-                                        <h3 className='lg:text-[30px] text-[24px] font-extrabold font-barlow text-white uppercase py-1'>{d.name}</h3>
-                                    </div>
+                <div className='lg:w-[60%] md:w-[35%] w-[90%] overflow-hidden lg:mx-auto my-[-2px] relative'>
+                    <OwlCarousel
+                        className='owl-theme'
+                        ref={carouselRef}
+                        loop
+                        margin={15}
+                        slideBy={1}
+                        dots={false}
+                        stageElement='div'
+                        center={true}
+                        responsive={{
+                            0: {
+                                items: 1,
+                                nav: false
+                            },
+                            768: {
+                                items: 1,
+                                nav: false
+                            },
+                            1100: {
+                                items: 1.5,
+                                nav: false
+                            }
+                        }}
+                    >
+                        {data.map((d, index) => (
+                            <div key={index} className='testimonial-item'>
+                                <div className='text-center rounded-3xl pl-3 lg:p-8 p-4 mx-3 bg-[#000821] lg:h-110% h-90%'>
+                                    <p className='lg:text-[16px] text-[15px] font-Josefin-Sans font-semibold text-white py-2'>{d.description}</p>
+                                    <h3 className='lg:text-[30px] text-[24px] font-extrabold font-barlow text-white uppercase py-1'>{d.name}</h3>
                                 </div>
-                            ))}
-                        </OwlCarousel>
+                            </div>
+                        ))}
+                    </OwlCarousel>
+                </div>
+                <div className='flex lg:flex-col flex-row mt-10 space-x-4'>
+                    <div className="lg:absolute left-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20" onClick={handlePrevSlide}>
+                        <img src="https://storyvord.com/img/circle-left.svg" alt="Left navigation" className='opacity-75 w-12 h-12' />
                     </div>
-                    <div className='flex lg:flex-col flex-row mt-10 space-x-4'>
-                        {/* Left navigation button */}
-                        <div className="lg:absolute left-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20 items-stretch" onClick={handlePrevSlide}>
-                            <img src="https://storyvord.com/img/circle-left.svg" alt="Left navigation" className='opacity-75 w-12 h-12' />
-                        </div>
-
-                        {/* Right navigation button */}
-                        <div className="lg:absolute right-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20" onClick={handleNextSlide}>
-                            <img src="https://storyvord.com/img/circle-right.svg" alt="Right navigation" className='opacity-75 w-12 h-12' />
-                        </div>
+                    <div className="lg:absolute right-[15%] top-[60%] transform -translate-y-1/2 cursor-pointer lg:z-20" onClick={handleNextSlide}>
+                        <img src="https://storyvord.com/img/circle-right.svg" alt="Right navigation" className='opacity-75 w-12 h-12' />
                     </div>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
 };
 
